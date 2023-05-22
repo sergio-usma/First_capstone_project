@@ -16,6 +16,11 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
 </head>
 
 <body>
@@ -73,79 +78,77 @@
     <div class="main__hero">
 
         <section class="main__section">
-            <div class="main__section__container">
+            <div class="main__section__container animate__animated animate__fadeInLeft">
             <!--  Event title & sub  -->
-                <h3 class="main__section__subtitle">"Hello! Be part of the change"</h3>
-                <h1 class="main__section__title">The World Tourism <br>Summit 2023</h1>
+                <h2 class="main__section__subtitle">"Hello! Be part of the change"</h2>
+                <h1 class="main__section__title ">The World <br> <span>Tourism</span> <br>Summit 2023</h1>
 
-            <!--  Event description  -->
+            <!--  Event information  -->
                 <p class="main__section__description">
-                    Unleash your wanderlust at the 9th World Tourism Summit of 2023! Join global travel enthusiasts and industry leaders.
+                    Unleash your wanderlust at the 9th World Tourism Summit! Join global travel enthusiasts and industry leaders.
                 </p>
 
+            <h3 class="main__section__date">2023.09.27(WED) - 29(FRI)</h3>
 
-            <h2 class="main__section__date">2023.09.27(WED) - 29(FRI)</h2>
-
-            <h3 class="main__section__place">@CORFERIAS Convention Center - Bogota, Colombia</h3>
+            <h4 class="main__section__place">@CORFERIAS Convention Center - Bogota, Colombia</h4>
             </div>
         </section>
 
     </div>
 
-
     <section class="main__program">
-        <h2>Main Program</h2>
 
-        <div class="line"></div>
+        <h2 class="main__program__title section__title">Main Program</h2>
+        <div class="division-line"></div>
 
-        <div>
+        <div class="main__program__container">
 
-            <article>
-                <i class="fa-solid fa-umbrella-beach "></i>
+            <article class="main_program__container__card">
+                <img src="./assets/ico/speaker.svg" alt="" class="main__program__container__card__img">
+                <h3>Lecture</h3>
 
-                <div><h2>Entertainment</h2></div>
-
-                <div><p>
+                <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, velit.
-                </p></div>
+                </p>
             </article>
 
-            <article>
-                <i class="fa-solid fa-award"></i>
-                <div><h2>Awards</h2></div>
-                <div><p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, ullam.</p></div>
+            <article class="main_program__container__card">
+                <img src="./assets/ico/exhibit.svg" alt="" class="main__program__container__card__img">
+                <h3>Exhibition</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, ullam.</p>
             </article>
 
-            <article>
-                <i class="fa-solid fa-umbrella-beach "></i>
-                <div><h2>Recreation</h2></div>
-                <div><p>
+            <article class="main_program__container__card">
+                <img src="./assets/ico/forum.svg" alt="" class="main__program__container__card__img">
+                <h3>Forum</h3>
+                <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, consequuntur?
-                </p></div>
+                </p>
             </article>
 
-            <article>
-                <i class="fa-solid fa-place-of-worship"></i>
-                <div><h2>Museum</h2></div>
-                <div><p>
+            <article class="main_program__container__card">
+                <img src="./assets/ico/workshop.svg" alt="" class="main__program__container__card__img">
+                <h3>Workshop</h3>
+                <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, suscipit!
-                </p></div>
+                </p>
             </article>
 
-            <article>
-                <i class="fa-solid fa-star"></i>
-                <div><h2>Speakers</h2></div>
-                <div><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, enim.</p></div>
+            <article class="main_program__container__card">
+                <img src="./assets/ico/network.svg" alt="" class="main__program__container__card__img">
+                <h3>Ignite</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, enim. </p>
             </article>
         </div>
 
-
+        <a class="main__program__ext-link section__ext-link" href="#">
         <h3>View full Program</h3>
+        </a>
 
-        <div>
-            Join The 9th World Tourism Summit 2023
-        </div>
+        <button class="main__program__btn">
+            Join World Tourism Summit 2023
+        </button>
 
     </section>
 
