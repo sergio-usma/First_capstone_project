@@ -85,11 +85,12 @@ nav {
   display: none;
   width: 150px;
   height: 60px;
-  background: linear-gradient(
-    58deg,
-    hsla(6, 82%, 59%, 1) 30%,
-    hsla(33, 94%, 57%, 1) 100%
-  );
+  background:
+    linear-gradient(
+      58deg,
+      hsla(6, 82%, 59%, 1) 30%,
+      hsla(33, 94%, 57%, 1) 100%
+    );
   border-radius: 50px 5px 5px 50px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   transform: scale(0.9);
@@ -201,21 +202,6 @@ nav {
   transition: all 0.3s ease;
 }
 
-/* ------ Navbar burger toogle ------ */
-
-/* Transform hamburger to X */
-.navbar__menu.open:nth-child(1) .bar {
-  transform: rotate(45deg) translate(5px, 5px);
-}
-
-.navbar__menu.open .bar:nth-child(2) {
-  opacity: 0;
-}
-
-.navbar__menu.open .bar:nth-child(3) {
-  transform: rotate(-45deg) translate(7px, -8px);
-}
-
 /* ----- Navbar menu ----- */
 .navbar-active {
   width: 90vw;
@@ -226,42 +212,45 @@ nav {
   justify-content: space-between;
   align-items: center;
   margin: 5vw 3vh;
-  background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+  background:
+    linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.1),
+      rgba(255, 255, 255, 0)
+    );
   -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
-  box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
   border: 1px solid rgba(255, 255, 255, 0.18);
   border-radius: 32px;
-    z-index: 1;
+  z-index: 1;
   animation-name: fadeInLeft;
   animation-duration: 1s;
 }
 
-.navbar-active .navbar__links{
+.navbar-active .navbar__links {
   transform: scale(1.15);
   height: 70vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 4vh;
-    list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4vh;
+  list-style: none;
 }
 
-.navbar-active .navbar__links li:nth-child(5) a{
-  margin:0;
+.navbar-active .navbar__links li:nth-child(5) a {
+  margin: 0;
 }
 
-
-.navbar-active .summit__logo{
+.navbar-active .summit__logo {
   display: flex;
   margin: 8vh auto 3vh auto;
   border-radius: 5px;
   width: 180px;
 }
 
-
-/* ---- Transform the navbar__menu-active into a close button ---*/
+/* ---- Transform the navbar__menu-active into a close button --- */
 .navbar__menu-active {
   width: 30px;
   height: 30px;
@@ -272,9 +261,8 @@ nav {
   flex-direction: row;
   justify-content: center;
   border-style: none;
-
   cursor: pointer;
-background-color: transparent;
+  background-color: transparent;
   background-image: url("./assets/ico/close.png");
   background-repeat: no-repeat;
   background-size: 15px 15px;
@@ -285,8 +273,7 @@ background-color: transparent;
   transform: scale(1.5);
 }
 
-
-.navbar__menu-active .bar{
+.navbar__menu-active .bar {
   display: none;
 }
 
