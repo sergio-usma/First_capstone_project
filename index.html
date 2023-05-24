@@ -35,7 +35,7 @@
 
       <!--    NAVBAR CONTAINER   -->
       <nav>
-        <div class="navbar">
+        <div id="navbar" class="navbar">
           <!-- Summit logo-->
           <div class="summit__logo">
             <a href="#">
@@ -54,15 +54,15 @@
             <li><a href="#">About</a></li>
             <li><a href="#program">Program</a></li>
             <li><a href="#speakers">Speakers</a></li>
-            <li><a href="#partners">Partners</a></li>
+            <li><a href="#sponsors__section">Partners</a></li>
             <li><a href="#">World Tourism Summit</a></li>
           </ul>
 
           <!-- hamburger menu -->
-          <button class="navbar__menu" type="button">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
+          <button id="burger" class="navbar__menu" type="button">
+            <span class="bar top"></span>
+            <span class="bar mid"></span>
+            <span class="bar bot"></span>
           </button>
         </div>
       </nav>
@@ -98,7 +98,7 @@
         </section>
       </div>
 
-      <section class="main__program">
+      <section id="program" class="main__program">
         <h2 class="main__program__title section__title">Main Program</h2>
         <div class="division-line"></div>
 
@@ -180,134 +180,13 @@
       </section>
 
       <!--    Featured Guests - Dynamic generation-->
-      <section class="featured__section">
+      <section id="speakers" class="featured__section">
         <div class="featured__section__container">
           <h2 class="featured__section__title section__title">
             Featured Speakers
           </h2>
           <div class="division-line"></div>
-
-          <div class="featured__section__wrapper">
-            <article class="featured__section__card">
-              <img
-                class="featured__section__card__img"
-                src="./assets/img/1_katerinaHolmes.png"
-                alt=""
-              />
-              <h3 class="featured__section__card__title">
-                Claudio Milano, PhD.
-              </h3>
-              <p class="featured__section__card__subtitle">
-                Adjuntant professor, Universitat de Barcelona (Spain)
-              </p>
-              <div class="card__division-line"></div>
-              <p class="featured__section__card__info">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Aliquam consequuntur cum earum harum necessitatibus obcaecati
-                officia pariatur quas rem repellendus.
-              </p>
-            </article>
-
-            <article class="featured__section__card">
-              <img
-                class="featured__section__card__img"
-                src="./assets/img/2_armandoCasas.png"
-                alt=""
-              />
-              <h3 class="featured__section__card__title">
-                Claudio Milano, PhD.
-              </h3>
-              <p class="featured__section__card__subtitle">
-                Adjuntant professor, Universitat de Barcelona (Spain)
-              </p>
-              <div class="card__division-line"></div>
-              <p class="featured__section__card__info">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Aliquam consequuntur cum earum harum necessitatibus obcaecati
-                officia pariatur quas rem repellendus.
-              </p>
-            </article>
-
-            <article class="featured__section__card">
-              <img
-                class="featured__section__card__img"
-                src="./assets/img/3_muhammedUsman.png"
-                alt=""
-              />
-              <h3 class="featured__section__card__title">
-                Claudio Milano, PhD.
-              </h3>
-              <p class="featured__section__card__subtitle">
-                Adjuntant professor, Universitat de Barcelona (Spain)
-              </p>
-              <div class="card__division-line"></div>
-              <p class="featured__section__card__info">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Aliquam consequuntur cum earum harum necessitatibus obcaecati
-                officia pariatur quas rem repellendus.
-              </p>
-            </article>
-
-            <article class="featured__section__card">
-              <img
-                class="featured__section__card__img"
-                src="./assets/img/4_carmenPerez.png"
-                alt=""
-              />
-              <h3 class="featured__section__card__title">
-                Claudio Milano, PhD.
-              </h3>
-              <p class="featured__section__card__subtitle">
-                Adjuntant professor, Universitat de Barcelona (Spain)
-              </p>
-              <div class="card__division-line"></div>
-              <p class="featured__section__card__info">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Aliquam consequuntur cum earum harum necessitatibus obcaecati
-                officia pariatur quas rem repellendus.
-              </p>
-            </article>
-
-            <article class="featured__section__card">
-              <img
-                class="featured__section__card__img"
-                src="./assets/img/5_parkJung.png"
-                alt=""
-              />
-              <h3 class="featured__section__card__title">
-                Claudio Milano, PhD.
-              </h3>
-              <p class="featured__section__card__subtitle">
-                Adjuntant professor, Universitat de Barcelona (Spain)
-              </p>
-              <div class="card__division-line"></div>
-              <p class="featured__section__card__info">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Aliquam consequuntur cum earum harum necessitatibus obcaecati
-                officia pariatur quas rem repellendus.
-              </p>
-            </article>
-
-            <article class="featured__section__card">
-              <img
-                class="featured__section__card__img"
-                src="./assets/img/6_johnDoe.png"
-                alt=""
-              />
-              <h3 class="featured__section__card__title">
-                Claudio Milano, PhD.
-              </h3>
-              <p class="featured__section__card__subtitle">
-                Adjuntant professor, Universitat de Barcelona (Spain)
-              </p>
-              <div class="card__division-line"></div>
-              <p class="featured__section__card__info">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Aliquam consequuntur cum earum harum necessitatibus obcaecati
-                officia pariatur quas rem repellendus.
-              </p>
-            </article>
-          </div>
+          <div class="featured__section__wrapper"></div>
         </div>
       </section>
 
@@ -319,31 +198,37 @@
           <div class="sponsors__section__container">
             <img
               class="sponsors__section__logo"
-              src="./assets/img/6_canadaTour.png"
+              src="./assets/img/canadaTour.png"
               alt="CORFERIAS logo"
             />
 
             <img
               class="sponsors__section__logo"
-              src="./assets/img/3_bogota.png"
+              src="./assets/img/bogota.png"
               alt="Bogota logo"
             />
 
             <img
               class="sponsors__section__logo"
-              src="./assets/img/1_UNWTO.png"
+              src="./assets/img/UNWTO.png"
               alt="UNWTO logo"
             />
 
             <img
               class="sponsors__section__logo"
-              src="./assets/img/tourismAustralia.png"
+              src="./assets/img/tourismAus.png"
               alt="COTELCO logo"
             />
 
             <img
               class="sponsors__section__logo"
               src="./assets/img/saudi.png"
+              alt="CORFERIAS logo"
+            />
+
+            <img
+              class="sponsors__section__logo"
+              src="./assets/img/lasVegas.png"
               alt="CORFERIAS logo"
             />
           </div>
