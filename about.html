@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/about.css" />
 
     <title>World Tourism Summit 2023</title>
 
@@ -38,7 +39,7 @@
         <div id="navbar" class="navbar">
           <!-- Summit logo-->
           <div class="summit__logo">
-            <a href="index.html">
+            <a href="#">
               <img src="./assets/ico/world.png" alt="World icon" />
               <div class="summit__logo_text">
                 <h4 class="summit__logo__up">World Tourism</h4>
@@ -52,10 +53,16 @@
           <ul class="navbar__links">
             <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
             <li><a href="about.html" onclick="toggleMenu()">About</a></li>
-            <li><a href="#program" onclick="toggleMenu()">Program</a></li>
-            <li><a href="#speakers" onclick="toggleMenu()">Speakers</a></li>
             <li>
-              <a href="#sponsors__section" onclick="toggleMenu()">Partners</a>
+              <a href="index.html#program" onclick="toggleMenu()">Program</a>
+            </li>
+            <li>
+              <a href="index.html#speakers" onclick="toggleMenu()">Speakers</a>
+            </li>
+            <li>
+              <a href="index.html#sponsors__section" onclick="toggleMenu()"
+                >Partners</a
+              >
             </li>
             <li>
               <a href="index.html" onclick="toggleMenu()"
@@ -74,125 +81,89 @@
       </nav>
     </header>
 
+    <!--    START HERE -->
     <main>
-      <div class="main__hero">
-        <section class="main__section">
-          <div
-            class="main__section__container animate__animated animate__fadeInLeft"
-          >
-            <!--  Event title & sub  -->
-            <h2 class="main__section__subtitle">
-              "Hello! Be part of the change"
-            </h2>
-            <h1 class="main__section__title">
-              The World <br />
-              <span>Tourism</span> <br />Summit 2023
-            </h1>
+      <div class="about__main__hero">
+        <section class="about__main__section">
+          <h2 class="about__main__section__subtitle">
+            "Hello! Be part of the change"
+          </h2>
+          <h1 class="about__main__section__title">
+            The World Tourism Summit 2023
+          </h1>
 
-            <!--  Event information  -->
-            <p class="main__section__description">
-              Unleash your wanderlust at the 9th World Tourism Summit! Join
-              global travel enthusiasts and industry leaders.
-            </p>
+          <div class="about__division division-line"></div>
 
-            <h3 class="main__section__date">2023.09.27(WED) - 29(FRI)</h3>
+          <!--  Event information  -->
+          <p class="about__main__section__description">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At beatae
+            corporis earum, incidunt iure maiores maxime nisi possimus quae
+            sapiente similique sit tempore. Magni nemo provident velit.
+            Doloremque, iure repudiandae.
+          </p>
 
-            <h4 class="main__section__place">
-              @CORFERIAS Convention Center - Bogota, Colombia
-            </h4>
-          </div>
+          <h3 class="about__main__section__info">
+            Please contact us per email for any further questions about The
+            World Tourism Summit 2023
+          </h3>
+
+          <a href="#" class="about__main__section__email">
+            wtourismsummit@unwto.org
+          </a>
         </section>
       </div>
 
-      <section id="program" class="main__program">
-        <h2 class="main__program__title section__title">Main Program</h2>
-        <div class="division-line"></div>
+      <section id="about__logo" class="about__logo__section">
+        <div class="about__logo__container about__section__container">
+          <h2 class="about__section__title section__title">
+            The World Tourism Summit 2023 Logo
+          </h2>
+          <div class="about__division division-line"></div>
 
-        <div class="main__program__container">
-          <article class="main_program__container__card">
-            <img
-              src="./assets/ico/speaker.svg"
-              alt=""
-              class="main__program__container__card__img"
-            />
-            <h3>Lecture</h3>
+          <p class="about__section__title__info">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Accusantium assumenda aut eius error fuga modi numquam rem
+            repellendus veritatis. Consequatur earum exercitationem ipsa ipsam
+            obcaecati perspiciatis quia ratione temporibus unde.
+          </p>
 
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Molestias, velit.
-            </p>
-          </article>
-
-          <article class="main_program__container__card">
-            <img
-              src="./assets/ico/exhibit.svg"
-              alt=""
-              class="main__program__container__card__img"
-            />
-            <h3>Exhibition</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam,
-              ullam.
-            </p>
-          </article>
-
-          <article class="main_program__container__card">
-            <img
-              src="./assets/ico/forum.svg"
-              alt=""
-              class="main__program__container__card__img"
-            />
-            <h3>Forum</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Consequatur, consequuntur?
-            </p>
-          </article>
-
-          <article class="main_program__container__card">
-            <img
-              src="./assets/ico/workshop.svg"
-              alt=""
-              class="main__program__container__card__img"
-            />
-            <h3>Workshop</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam,
-              suscipit!
-            </p>
-          </article>
-
-          <article class="main_program__container__card">
-            <img
-              src="./assets/ico/network.svg"
-              alt=""
-              class="main__program__container__card__img"
-            />
-            <h3>Ignite</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Adipisci, enim.
-            </p>
-          </article>
+          <div class="summit__logo about__summit__logo">
+            <a href="index.html">
+              <img src="./assets/ico/world.png" alt="World icon" />
+              <div class="summit__logo_text">
+                <h4 class="summit__logo__up">World Tourism</h4>
+                <h3 class="summit__logo__mid">SUMMIT</h3>
+                <h4 class="summit__logo__bot">2023</h4>
+              </div>
+            </a>
+          </div>
         </div>
-
-        <a class="main__program__ext-link section__ext-link" href="#">
-          <h3>View full Program</h3>
-        </a>
-
-        <button type="button" class="main__program__btn">
-          Join World Tourism Summit 2023
-        </button>
       </section>
 
-      <!--    Featured Guests - Dynamic generation-->
-      <section id="speakers" class="featured__section">
-        <div class="featured__section__container">
-          <h2 class="featured__section__title section__title">
-            Featured Speakers
+      <section id="about__history" class="about__history">
+        <div class="about__history__container about__section__container">
+          <h2 class="about__section__title section__title">
+            See the past World Tourism Summits
           </h2>
-          <div class="division-line"></div>
-          <div class="featured__section__wrapper"></div>
+          <div class="about__division division-line"></div>
+          <p class="about__section__title__info">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad in quod
+            sunt!
+          </p>
+        </div>
+
+        <div class="about__images__wrapper">
+          <img class="about__image-1" src="./assets/img/summit1.jpg" alt="" />
+          <div class="overlay__text-1 overlay__text">
+            <h2>2022</h2>
+            <p>World Tourism Summit 2021 in Dubai</p>
+          </div>
+
+          <img class="about__image-2" src="./assets/img/summit2.jpg" alt="" />
+          <div class="overlay__text-2 overlay__text">
+            <h2>2023</h2>
+            <p>World Tourism Summit 2022 in London</p>
+          </div>
         </div>
       </section>
 
@@ -242,10 +213,10 @@
       </section>
     </main>
 
-    <footer>
-      <div class="footer">
+    <footer class="about__footer">
+      <div class="footer about__footer">
         <div class="summit__logo footer__logo">
-          <a href="#">
+          <a href="index.html">
             <img src="./assets/ico/world.png" alt="World icon" />
             <div class="summit__logo_text">
               <h4 class="summit__logo__up">World Tourism</h4>

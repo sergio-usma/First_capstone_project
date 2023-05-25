@@ -1,12 +1,13 @@
 /* -----------------NAVBAR TOGGLE --------------*/
 // DOM  items
+const viewportWidth = window.innerWidth;
 const navbar = document.querySelector('#navbar');
 const burger = document.querySelector('#burger');
 
 let showMenu = false;
 
 function toggleMenu() {
-  if (!showMenu) {
+  if (!showMenu && viewportWidth < 768) {
     navbar.classList.remove('navbar');
     navbar.classList.add('navbar-active');
     burger.classList.remove('burger');
