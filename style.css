@@ -651,8 +651,8 @@ nav {
 
 /* ---------------------------------- */
 
-/* ---------- MEDIA QUERY @400px (iPhone latest devices) --------- */
-@media screen and (min-height: 400px) and (max-height: 450px) {
+/* ---------- MEDIA QUERY @380px (iPhone latest devices) --------- */
+@media screen and (min-height: 380px) and (max-height: 450px) {
   .main__hero {
     height: 768px !important;
   }
