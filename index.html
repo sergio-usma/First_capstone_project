@@ -14,6 +14,8 @@
       href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
 
   <body>
@@ -50,15 +52,15 @@
 
           <!-- Navbar links -->
           <ul class="navbar__links">
-            <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
-            <li><a href="about.html" onclick="toggleMenu()">About</a></li>
-            <li><a href="#program" onclick="toggleMenu()">Program</a></li>
-            <li><a href="#speakers" onclick="toggleMenu()">Speakers</a></li>
+            <li><a href="index.html" onclick="closeMenu()">Home</a></li>
+            <li><a href="about.html" onclick="closeMenu()">About</a></li>
+            <li><a href="#program" onclick="closeMenu()">Program</a></li>
+            <li><a href="#speakers" onclick="closeMenu()">Speakers</a></li>
             <li>
-              <a href="#sponsors__section" onclick="toggleMenu()">Partners</a>
+              <a href="#sponsors__section" onclick="closeMenu()">Partners</a>
             </li>
             <li>
-              <a href="index.html" onclick="toggleMenu()"
+              <a href="index.html" onclick="closeMenu()"
                 >World Tourism Summit</a
               >
             </li>
@@ -194,6 +196,9 @@
           <div class="division-line"></div>
           <div class="featured__section__wrapper"></div>
         </div>
+        <button type="button" class="featured__section__btn">
+          MORE <i class="fa-solid fa-chevron-down"></i>
+        </button>
       </section>
 
       <!--    Event sponsors & Partners-->
