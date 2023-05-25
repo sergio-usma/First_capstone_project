@@ -651,13 +651,6 @@ nav {
 
 /* ---------------------------------- */
 
-/* ---------- MEDIA QUERY @380px (iPhone latest devices) --------- */
-@media screen and (min-height: 380px) and (max-height: 450px) {
-  .main__hero {
-    height: 768px !important;
-  }
-}
-
 /* ---------- MEDIA QUERY @768PX --------- */
 
 @media screen and (min-width: 768px) {
@@ -682,6 +675,10 @@ nav {
     position: static;
   }
 
+  .navbar-active {
+    display: none;
+  }
+
   .summit__logo {
     display: block;
   }
@@ -701,7 +698,7 @@ nav {
 
   /* MAIN SECTION 1 */
   .main__hero {
-    height: 90vh;
+    height: auto;
     max-height: calc((var(--containers-max-width)) / 1.5);
   }
 
