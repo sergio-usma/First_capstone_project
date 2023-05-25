@@ -2,6 +2,7 @@
 // DOM  items
 const navbar = document.querySelector('#navbar');
 const burger = document.querySelector('#burger');
+const navLinks = document.querySelector('.navbar__links li a');
 
 let showMenu = false;
 
@@ -25,6 +26,15 @@ function toggleMenu() {
   }
 }
 burger.addEventListener('click', toggleMenu);
+
+function closeMenu() {
+  navbar.classList.remove('navbar-active');
+  navbar.classList.add('navbar');
+  burger.classList.remove('navbar__menu-active');
+  burger.classList.add('navbar__menu');
+}
+
+navLinks.addEventListener('click', closeMenu);
 
 /* -----------------ARRAY INFO DECLARATION --------------*/
 const speakers = [
@@ -78,6 +88,29 @@ const speakers = [
 ];
 
 /* -----------------DYNAMIC SECTION CREATION --------------*/
+const speakersBtn = document.querySelector('.featured__section__btn');
+
+function moreSpeakers() {
+  const speakers = document.querySelectorAll('.featured__section__wrapper > :nth-child(n+3)');
+
+  const speakersStatus = window.getComputedStyle(speakers[0]).display;
+
+  if (speakersStatus === 'none') {
+    speakers.forEach((speaker) => {
+      speaker.style.display = 'grid';
+    });
+    speakersBtn.textContent = 'LESS';
+    speakersBtn.innerHTML += '<i class="fa-solid fa-chevron-up"></i>';
+  } else {
+    speakers.forEach((speaker) => {
+      speaker.style.display = 'none';
+    });
+    speakersBtn.textContent = 'MORE';
+    speakersBtn.innerHTML += '<i class="fa-solid fa-chevron-down"></i>';
+  }
+}
+
+speakersBtn.addEventListener('click', moreSpeakers);
 
 for (let i = 0; i < speakers.length; i += 1) {
   const speakersWrapper = document.getElementsByClassName(

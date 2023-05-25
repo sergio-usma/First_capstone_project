@@ -5,7 +5,8 @@
   <img src="./assets/img/Logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Personal portfolio project</b></h3>
+  <h3><b>First Capstone Project</b></h3>
+  <h4><i>"The World Tourism Summit 2023"</i></h4>
 
 </div>
 
@@ -35,17 +36,17 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Hello Microverse <a name="about-project"></a>
+# 📖 First Capstone Project <a name="about-project"></a>
 
-**Personal_portfolio** is a project that consists of building a personal portfolio site. This project is part of the Microverse curriculum. In this first part, the project is built using only HTML and CSS. In the future, more technologies will be added. Besides, includes a README file with the project description and two sections: one with the navigation bar, and another with author's name and links to the author's social networks.
+**The first capstone project** is a project to test the learn skills gain into "The portal" first module based on HTML, CSS and basic JavaScript. This project is part of the Microverse curriculum. The project contains a full description of The World Tourism Sumit 2023, that will have place in Bogota (Colombia) from 27th to 29th of november 2023 in CORFERIAS.
 
-[Click here](https://www.loom.com/share/ab6809d556574bbcb8ec807e629eb4e0) to see the presentation video
+In the future, more technologies will be added. Besides, includes a README file with the project description and two sections: one with the navigation bar, and another with author's name and links to the event and additional pages.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 - HTML
 - CSS
-- JavScript
+- JavaScript
 - Linters
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -68,7 +69,7 @@ In this project was only used HTML and CSS. More technologies Coming soon.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- If you want to see a preview from the project go and [click here!](https://sergio-usma.github.io/Personal_portfolio/)
+- If you want to see a preview from the project go and [click here!](https://sergio-usma.github.io/First_capstone_project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -95,7 +96,7 @@ Clone this repository to your desired folder:
 
 2. Open a terminal window and navigate to the directory where you want to clone the repository.
 
-3. Type "git clone" in the terminal window, followed by a space and then paste the repository URL https://github.com/sergio-usma/Personal_portfolio. Press "Enter" to clone the repository.
+3. Type "git clone" in the terminal window, followed by a space and then paste the repository URL https://github.com/sergio-usma/First_capstone_project. Press "Enter" to clone the repository.
 
 4. Verify that the repository has been cloned successfully by checking the contents of the directory where you cloned it.
 
@@ -140,8 +141,9 @@ You can deploy this project using your preferred deployment method. However we r
 
 These are the coming soon features for this project:
 
-1. [ ] Projects section pop-ups.
-2. [ ] Full features mobile & desktop version.
+1. [ ] Main program pop-ups.
+2. [ ] Newsletter and access to ultima news of the event.
+3. [ ] Reservations & login pages.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -167,7 +169,7 @@ If you like this project, please consider supporting us! Your support helps us t
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse for his groundbreaking work on data visualization in his lessons.
+I would like to thank Microverse for his groundbreaking work on data visualization in his lessons. Also, is important recognize the Original Design by Cindy Shin in Behance https://www.behance.net/gallery/29845175/CC-Global-Summit-2015.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

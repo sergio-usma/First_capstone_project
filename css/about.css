@@ -1,0 +1,221 @@
+.about__main__hero {
+  max-height: var(--containers-max-width);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 9vh;
+  background-image: url(../assets/img/main_sm.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.about__main__section {
+  min-height: 450px;
+  max-width: calc((var(--containers-max-width)) / 2);
+  margin: 5vh auto 2.5vh auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding: 1rem;
+}
+
+.about__main__section__subtitle {
+  text-align: center;
+  color: var(--main-color);
+  font-weight: 600;
+  font-size: 2rem;
+  letter-spacing: -1px;
+}
+
+.about__main__section__title {
+  max-width: 900px;
+  font-weight: 900;
+  font-size: 4.8rem;
+  line-height: 1;
+  letter-spacing: -2px;
+  text-align: center;
+  -webkit-text-stroke-width: 1px;
+  background-image: url("../assets/img/letterTexture.jpg");
+  background-repeat: repeat;
+  background-size: contain;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+}
+
+.about__division {
+  display: block;
+  width: 30px;
+  margin: 1rem auto;
+}
+
+.about__main__section__description {
+  margin: 3vh 0;
+  padding: 1rem;
+  font-size: 1.6rem;
+  text-align: center;
+  line-height: 1.5;
+  color: var(--text-color-black);
+  background: var(--text-color-white);
+  border: 1px solid var(--text-color-light);
+}
+
+.about__main__section__info {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+.about__main__section__email {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 1.6rem;
+  line-height: 1.25;
+  color: var(--text-color-black);
+}
+
+.about__logo__section {
+  background: transparent;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.about__section__container {
+  min-height: 350px;
+  max-width: calc((var(--containers-max-width)) / 2);
+  padding: 5vh 1rem 2.5vh 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+}
+
+.about__summit__logo {
+  display: flex;
+  margin: 6vh auto 8vh auto;
+  transform: translate(0) scale(2);
+  border-radius: 7px;
+}
+
+.about__section__title {
+  font-size: 2.4rem;
+  font-weight: 600;
+  text-align: center;
+  color: var(--text-color-black);
+  margin: 0 auto;
+}
+
+.about__section__title__info {
+  padding: 1rem;
+  font-size: 1.6rem;
+  text-align: center;
+  line-height: 1.5;
+  color: var(--text-color-black);
+}
+
+.about__history__container {
+  width: 85vw;
+  min-height: auto;
+  padding-bottom: 0;
+}
+
+.about__images__wrapper {
+  width: 80vw;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-areas:
+    "figure-1"
+    "figure-2";
+  gap: 2rem;
+  margin: 2vh auto 5vh auto;
+  justify-items: center;
+  align-content: center;
+}
+
+.about__image-1 {
+  grid-area: figure-1;
+  width: 100%;
+}
+
+.overlay__text-1 {
+  grid-area: figure-1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  color: var(--text-color-white);
+  background-color: rgba(236, 82, 66, 0.6);
+  z-index: 20;
+}
+
+.overlay__text h2 {
+  font-size: 3rem;
+  font-weight: 900;
+  text-align: center;
+  color: var(--text-color-white);
+  margin: 0 auto;
+}
+
+.overlay__text p {
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-align: center;
+  color: var(--text-color-white);
+  margin: 0 auto;
+}
+
+.about__image-2 {
+  grid-area: figure-2;
+  width: 100%;
+}
+
+.overlay__text-2 {
+  grid-area: figure-2;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  color: var(--text-color-white);
+  background-color: rgba(236, 82, 66, 0.6);
+  z-index: 20;
+}
+
+/* ---------- MEDIA QUERIES --------- */
+
+/* ---------- MEDIA QUERY @768PX --------- */
+
+@media screen and (min-width: 768px) {
+  .about__main__hero {
+    padding-top: 0;
+  }
+
+  .about__images__wrapper {
+    width: 80vw;
+    max-width: calc((var(--containers-max-width)) / 1.5);
+    grid-template-areas: "figure-1 figure-2";
+    gap: 2rem;
+    margin: 2vh auto 5vh auto;
+  }
+
+  .about__division {
+    display: block;
+  }
+
+  #sponsors__section {
+    display: none;
+  }
+
+  .about__footer {
+    background: var(--main-color-dark);
+    color: var(--text-color-white);
+  }
+}

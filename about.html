@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/about.css" />
+
+    <title>World Tourism Summit 2023</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <!--    TOP BAR    -->
+      <div class="header__top-bar">
+        <div class="header__top-bar__container">
+          <a href="#"
+            ><img src="./assets/ico/facebook.png" alt="Facebook logo"
+          /></a>
+          <a href="#"
+            ><img src="./assets/ico/twitter.png" alt="Twitter logo"
+          /></a>
+          <a href="#">English</a>
+          <a href="#">My Page</a>
+          <a href="#">Logout</a>
+        </div>
+      </div>
+
+      <!--    NAVBAR CONTAINER   -->
+      <nav>
+        <div id="navbar" class="navbar">
+          <!-- Summit logo-->
+          <div class="summit__logo">
+            <a href="#">
+              <img src="./assets/ico/world.png" alt="World icon" />
+              <div class="summit__logo_text">
+                <h4 class="summit__logo__up">World Tourism</h4>
+                <h3 class="summit__logo__mid">SUMMIT</h3>
+                <h4 class="summit__logo__bot">2023</h4>
+              </div>
+            </a>
+          </div>
+
+          <!-- Navbar links -->
+          <ul class="navbar__links">
+            <li><a href="index.html" onclick="closeMenu()">Home</a></li>
+            <li><a href="about.html" onclick="closeMenu()">About</a></li>
+            <li>
+              <a href="index.html#program" onclick="closeMenu()">Program</a>
+            </li>
+            <li>
+              <a href="index.html#speakers" onclick="closeMenu()">Speakers</a>
+            </li>
+            <li>
+              <a href="index.html#sponsors__section" onclick="closeMenu()"
+                >Partners</a
+              >
+            </li>
+            <li>
+              <a href="index.html" onclick="closeMenu()">World Tourism Summit</a
+              >
+            </li>
+          </ul>
+
+          <!-- hamburger menu -->
+          <button id="burger" class="navbar__menu" type="button">
+            <span class="bar top"></span>
+            <span class="bar mid"></span>
+            <span class="bar bot"></span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <!--    START HERE -->
+    <main>
+      <div class="about__main__hero">
+        <section class="about__main__section">
+
+          <h1 class="about__main__section__title">
+            The World Tourism Summit 2023
+          </h1>
+
+          <div class="about__division division-line"></div>
+
+          <!--  Event information  -->
+          <p class="about__main__section__description">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At beatae
+            corporis earum, incidunt iure maiores maxime nisi possimus quae
+            sapiente similique sit tempore. Magni nemo provident velit.
+            Doloremque, iure repudiandae.
+          </p>
+
+          <h3 class="about__main__section__info">
+            Please contact us per email for any further questions about The
+            World Tourism Summit 2023
+          </h3>
+
+          <a href="#" class="about__main__section__email">
+            wtourismsummit@unwto.org
+          </a>
+        </section>
+      </div>
+
+      <section id="about__logo" class="about__logo__section">
+        <div class="about__logo__container about__section__container">
+          <h2 class="about__section__title section__title">
+            The World Tourism Summit 2023 Logo
+          </h2>
+          <div class="about__division division-line"></div>
+
+          <p class="about__section__title__info">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Accusantium assumenda aut eius error fuga modi numquam rem
+            repellendus veritatis. Consequatur earum exercitationem ipsa ipsam
+            obcaecati perspiciatis quia ratione temporibus unde.
+          </p>
+
+          <div class="summit__logo about__summit__logo">
+            <a href="index.html">
+              <img src="./assets/ico/world.png" alt="World icon" />
+              <div class="summit__logo_text">
+                <h4 class="summit__logo__up">World Tourism</h4>
+                <h3 class="summit__logo__mid">SUMMIT</h3>
+                <h4 class="summit__logo__bot">2023</h4>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about__history" class="about__history">
+        <div class="about__history__container about__section__container">
+          <h2 class="about__section__title section__title">
+            See the past World Tourism Summits
+          </h2>
+          <div class="about__division division-line"></div>
+          <p class="about__section__title__info">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad in quod
+            sunt!
+          </p>
+        </div>
+
+        <div class="about__images__wrapper">
+          <img class="about__image-1" src="./assets/img/summit1.jpg" alt="World Tourism Summit 2021 in Dubai" />
+          <div class="overlay__text-1 overlay__text">
+            <h2>2021</h2>
+            <p>World Tourism Summit 2021 in Dubai</p>
+          </div>
+
+          <img class="about__image-2" src="./assets/img/summit2.jpg" alt=">World Tourism Summit 2022 in London" />
+          <div class="overlay__text-2 overlay__text">
+            <h2>2022</h2>
+            <p>World Tourism Summit 2022 in London</p>
+          </div>
+        </div>
+      </section>
+
+      <!--    Event sponsors & Partners-->
+      <section id="sponsors__section">
+        <div class="sponsors__section">
+          <h2 class="sponsors__section__title section__title">Partners</h2>
+          <div class="division-line"></div>
+          <div class="sponsors__section__container">
+            <img
+              class="sponsors__section__logo"
+              src="./assets/img/canadaTour.png"
+              alt="CORFERIAS logo"
+            />
+
+            <img
+              class="sponsors__section__logo"
+              src="./assets/img/bogota.png"
+              alt="Bogota logo"
+            />
+
+            <img
+              class="sponsors__section__logo"
+              src="./assets/img/UNWTO.png"
+              alt="UNWTO logo"
+            />
+
+            <img
+              class="sponsors__section__logo"
+              src="./assets/img/tourismAus.png"
+              alt="COTELCO logo"
+            />
+
+            <img
+              class="sponsors__section__logo"
+              src="./assets/img/saudi.png"
+              alt="CORFERIAS logo"
+            />
+
+            <img
+              class="sponsors__section__logo"
+              src="./assets/img/lasVegas.png"
+              alt="CORFERIAS logo"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="about__footer">
+      <div class="footer about__footer">
+        <div class="summit__logo footer__logo">
+          <a href="index.html">
+            <img src="./assets/ico/world.png" alt="World icon" />
+            <div class="summit__logo_text">
+              <h4 class="summit__logo__up">World Tourism</h4>
+              <h3 class="summit__logo__mid">SUMMIT</h3>
+              <h4 class="summit__logo__bot">2023</h4>
+            </div>
+          </a>
+        </div>
+
+        <div class="footer__disclaimer">
+          <h3>2023 World Tourism Summit.</h3>
+          <p>Original Design by Cindy Shin in Behance</p>
+          <p>Some Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
