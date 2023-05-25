@@ -808,6 +808,10 @@ nav {
 }
 
 @media screen and (min-width: 1024px) {
+  .main__hero {
+    height: 90vh;
+  }
+
   .main__program__container {
     width: 98%;
   }
