@@ -698,7 +698,7 @@ nav {
 
   /* MAIN SECTION 1 */
   .main__hero {
-    height: auto;
+    height: 750px;
     max-height: calc((var(--containers-max-width)) / 1.5);
   }
 
